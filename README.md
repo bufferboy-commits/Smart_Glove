@@ -29,13 +29,13 @@ This project implements a wearable **Smart Glove** using an **ESP32**, **five fl
 
 ---
 
-## 🔌 Pin Connections
+##  Pin Connections
 
- - as shown in the attached circuit diagram
+ - As shown in the attached circuit diagram
 
 ---
 
-## 📦 Libraries Required
+##  Libraries Required
 
 Install the following libraries via Arduino Library Manager:
 
@@ -43,6 +43,10 @@ Install the following libraries via Arduino Library Manager:
 - `Adafruit Unified Sensor`
 - `Wire`
 
+## Note:
+- the program Flex_Reading directly reads the flex sensors and sends the data to the device.
+- before using please put appropriate Wi-Fi SSID and Password
+- the program interpreter involves MPU values which might vary from place to place, caliberate your MPU before using
 ---
 
 
