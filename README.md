@@ -1,2 +1,49 @@
-# Smart_Glove
-Smart-Glove is an IoT device which focuses on aiding the deaf and dumb by enabling sign language to speech. It uses flex sensors to determine the bend in fingers, an IMU for getting the orientation, an ESP32 to record the data which is then sent to firebase where a proper letter is allotted to the sign, ultimately spoken on phone using tts.
+# Smart Glove
+
+This project implements a wearable **Smart Glove** using an **ESP32**, **five flex sensors**, and an **MPU6050 IMU** to read hand gestures and potentially translate them into speech. The glove can be used for applications such as **sign language interpretation**, **gesture-controlled interfaces**, or **rehabilitation monitoring**.
+
+---
+
+## Features
+
+- Reads analog values from **5 flex sensors** (one for each finger)
+- Reads accelerometer and gyroscope data from **MPU6050**
+- Uses **ESP32** for processing and communication
+- Serial monitor prints mapped values and gesture classification
+- Values recognized and mapped to character
+- Using Wi-Fi module on **ESP32** the character is sent to **Flutter Application- SignWave** 
+- The application using google text to speech converter to convert the received character to speech
+
+
+---
+
+## Hardware Used
+
+- ESP32 DevKit V1 (or similar)
+- MPU6050 6-axis accelerometer + gyroscope
+- 5x Flex Sensors (resistive bend sensors)
+- 10kΩ resistors (for voltage dividers with flex sensors)
+- LiPo Battery (3.7V) with TP4056 charging module (for portability)
+- Breadboard / PCB
+- Wires and a glove
+
+---
+
+## 🔌 Pin Connections
+
+ - as shown in the attached circuit diagram
+
+---
+
+## 📦 Libraries Required
+
+Install the following libraries via Arduino Library Manager:
+
+- `Adafruit MPU6050`
+- `Adafruit Unified Sensor`
+- `Wire`
+
+---
+
+
+
