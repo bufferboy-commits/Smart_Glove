@@ -51,6 +51,6 @@ Install the following libraries via Arduino Library Manager:
 
 
 <img width="250" alt="Signwave2" src="https://github.com/user-attachments/assets/59025c42-b949-4ef9-8cea-708503b49ead" />
-<img width="900" height="1600" alt="WhatsApp Image 2026-11-04 at 02 34 10" src="https://github.com/user-attachments/assets/6c18e6df-519e-4e99-8357-7cd108fbf001" />
+<img width="250" alt="WhatsApp Image 2026-11-04 at 02 34 10" src="https://github.com/user-attachments/assets/6c18e6df-519e-4e99-8357-7cd108fbf001" />
 
 
