@@ -50,4 +50,7 @@ Install the following libraries via Arduino Library Manager:
 ---
 
 
+<img width="900" height="1600" alt="Signwave2" src="https://github.com/user-attachments/assets/59025c42-b949-4ef9-8cea-708503b49ead" />
+<img width="900" height="1600" alt="Signwave2" src="https://github.com/user-attachments/assets/827df2fc-1460-43ef-900b-235fffca76cb" />
+
 
